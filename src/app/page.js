@@ -5,7 +5,6 @@ import { Typography, Box, Modal, Button, Stack, TextField, IconButton, Grid } fr
 import AddCircleIcon from '@mui/icons-material/AddCircle';
 import RemoveCircleIcon from '@mui/icons-material/RemoveCircle';
 import Navbar from './Navbar';
-import 
 import { collection, doc, setDoc, getDocs, addDoc, deleteDoc, query, where } from 'firebase/firestore';
 
 const modalStyle = {
